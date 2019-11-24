@@ -1,0 +1,73 @@
+$date
+	Mon Nov 18 15:42:40 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module top $end
+$var wire 4 ! line [3:0] $end
+$var reg 2 " sel [1:0] $end
+$scope module dec $end
+$var wire 2 # a [1:0] $end
+$var wire 4 $ y [3:0] $end
+$scope function d2x4 $end
+$var reg 2 % c [1:0] $end
+$var reg 4 & d2x4 [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#50
+b1 !
+b1 $
+b1 &
+b0 %
+b0 "
+b0 #
+#100
+b10 !
+b10 $
+b10 &
+b1 %
+b1 "
+b1 #
+#150
+b100 !
+b100 $
+b100 &
+b10 %
+b10 "
+b10 #
+#200
+b1000 !
+b1000 $
+b1000 &
+b11 %
+b11 "
+b11 #
+#250
+b1 !
+b1 $
+b1 &
+b0 %
+b0 "
+b0 #
+#300
+b10 !
+b10 $
+b10 &
+b1 %
+b1 "
+b1 #

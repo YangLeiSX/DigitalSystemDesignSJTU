@@ -1,0 +1,134 @@
+$date
+	Tue Nov 19 21:42:53 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module top $end
+$var wire 8 ! p_q [7:0] $end
+$var reg 4 " p_addr [3:0] $end
+$var reg 1 # p_ce $end
+$var reg 1 $ p_en $end
+$var integer 32 % k [31:0] $end
+$scope module rom $end
+$var wire 4 & address [3:0] $end
+$var wire 1 # ce $end
+$var wire 1 $ en $end
+$var reg 8 ' data [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz '
+b0 &
+bx %
+0$
+1#
+b0 "
+bz !
+$end
+#50
+b1010 !
+b1010 '
+b0 %
+1$
+#100
+b110111 !
+b110111 '
+b1 %
+b1 "
+b1 &
+#150
+b11110100 !
+b11110100 '
+b10 %
+b10 "
+b10 &
+#200
+b0 !
+b0 '
+b11 %
+b11 "
+b11 &
+#250
+b1001 !
+b1001 '
+b100 %
+b100 "
+b100 &
+#300
+b11111111 !
+b11111111 '
+b101 %
+b101 "
+b101 &
+#350
+b10001 !
+b10001 '
+b110 %
+b110 "
+b110 &
+#400
+b1 !
+b1 '
+b111 %
+b111 "
+b111 &
+#450
+b10000 !
+b10000 '
+b1000 %
+b1000 "
+b1000 &
+#500
+b10101 !
+b10101 '
+b1001 %
+b1001 "
+b1001 &
+#550
+b11101 !
+b11101 '
+b1010 %
+b1010 "
+b1010 &
+#600
+b100101 !
+b100101 '
+b1011 %
+b1011 "
+b1011 &
+#650
+b1100000 !
+b1100000 '
+b1100 %
+b1100 "
+b1100 &
+#700
+b10010000 !
+b10010000 '
+b1101 %
+b1101 "
+b1101 &
+#750
+b1110000 !
+b1110000 '
+b1110 %
+b1110 "
+b1110 &
+#800
+b10010001 !
+b10010001 '
+b1111 %
+b1111 "
+b1111 &
+#850
+b1010 !
+b1010 '
+b10000 %
+b0 "
+b0 &

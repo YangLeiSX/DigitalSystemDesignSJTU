@@ -1,0 +1,188 @@
+$date
+	Tue Nov 19 19:52:32 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module top $end
+$var wire 4 ! p_out [3:0] $end
+$var reg 1 " p_clk $end
+$var reg 1 # p_lin $end
+$var reg 4 $ p_pin [3:0] $end
+$var reg 1 % p_reset $end
+$var reg 1 & p_rin $end
+$var reg 2 ' p_sel [1:0] $end
+$scope module sreg $end
+$var wire 1 # Lin $end
+$var wire 1 & Rin $end
+$var wire 1 " clk $end
+$var wire 4 ( d [3:0] $end
+$var wire 1 % rst_n $end
+$var wire 2 ) s [1:0] $end
+$var reg 4 * q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+bx )
+b101 (
+bx '
+1&
+0%
+b101 $
+0#
+0"
+bx !
+$end
+#30
+1%
+#50
+1"
+#80
+b11 '
+b11 )
+#100
+0"
+0&
+1#
+#150
+b101 !
+b101 *
+1"
+#180
+b10 '
+b10 )
+#200
+0"
+#250
+b1010 !
+b1010 *
+1"
+#300
+0"
+#350
+b100 !
+b100 *
+1"
+#400
+0"
+#450
+b1000 !
+b1000 *
+1"
+#480
+b1 '
+b1 )
+#500
+0"
+#550
+b1100 !
+b1100 *
+1"
+#580
+b10 '
+b10 )
+#600
+0"
+1&
+0#
+#650
+b1001 !
+b1001 *
+1"
+#700
+0"
+0&
+1#
+#750
+b10 !
+b10 *
+1"
+#780
+b1 '
+b1 )
+#800
+0"
+#850
+b1001 !
+b1001 *
+1"
+#900
+0"
+#950
+b1100 !
+b1100 *
+1"
+#1000
+0"
+#1050
+b1110 !
+b1110 *
+1"
+#1080
+b10 '
+b10 )
+#1100
+0"
+1&
+0#
+#1150
+b1101 !
+b1101 *
+1"
+#1200
+0"
+#1250
+b1011 !
+b1011 *
+1"
+#1280
+b1 '
+b1 )
+#1300
+0"
+#1350
+b101 !
+b101 *
+1"
+#1380
+b10 '
+b10 )
+#1400
+0"
+#1450
+b1011 !
+b1011 *
+1"
+#1500
+0"
+0&
+1#
+#1550
+b110 !
+b110 *
+1"
+#1600
+0"
+#1650
+b1100 !
+b1100 *
+1"
+#1680
+b1 '
+b1 )
+#1700
+0"
+1&
+0#
+#1750
+b110 !
+b110 *
+1"
+#1800
+0"

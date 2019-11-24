@@ -1,0 +1,114 @@
+$date
+	Mon Nov 18 23:37:22 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module top $end
+$var wire 1 ! p_qbar $end
+$var wire 1 " p_q $end
+$var reg 1 # p_clk $end
+$var reg 1 $ p_d $end
+$var reg 1 % p_r $end
+$var reg 1 & p_s $end
+$scope module dff $end
+$var wire 1 # clk $end
+$var wire 1 $ d $end
+$var wire 1 % reset $end
+$var wire 1 & set $end
+$var reg 1 " q $end
+$var reg 1 ! qbar $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+0$
+0#
+x"
+x!
+$end
+#55
+0"
+1!
+1#
+#80
+1$
+#135
+0#
+#140
+1"
+0!
+1&
+#160
+0$
+#190
+1#
+#210
+0&
+#240
+1$
+#270
+0#
+#300
+0"
+1!
+1%
+#320
+0%
+0$
+#325
+1#
+#400
+1$
+#405
+0#
+#460
+1"
+0!
+1#
+#480
+0$
+#540
+0#
+#550
+0"
+1!
+1%
+#560
+1$
+#570
+0%
+#595
+1"
+0!
+1#
+#640
+0$
+#675
+0#
+#720
+1$
+#730
+1#
+#800
+0$
+#810
+0#
+#865
+0"
+1!
+1#
+#880
+1$
+#945
+0#
+#960
+0$
+#1000
+1#
