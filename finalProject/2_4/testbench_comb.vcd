@@ -1,0 +1,279 @@
+$date
+	Thu Nov 21 22:33:19 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench_comb $end
+$var wire 1 ! p_Y4 $end
+$var wire 1 " p_Y3 $end
+$var wire 1 # p_Y2 $end
+$var wire 1 $ p_Y1 $end
+$var reg 1 % p_A $end
+$var reg 1 & p_B $end
+$var reg 1 ' p_C $end
+$var reg 1 ( p_D $end
+$var integer 32 ) k [31:0] $end
+$scope module comb1 $end
+$var wire 1 % A $end
+$var wire 1 * ANDv $end
+$var wire 1 & B $end
+$var wire 1 ' C $end
+$var wire 1 ( D $end
+$var wire 1 + Dbar $end
+$var wire 1 , ORv $end
+$var wire 1 - ORvbar $end
+$var wire 1 $ Y $end
+$upscope $end
+$scope module comb2 $end
+$var wire 1 % A $end
+$var wire 1 . ANDv $end
+$var wire 1 & B $end
+$var wire 1 ' C $end
+$var wire 1 ( D $end
+$var wire 1 / Dbar $end
+$var wire 1 0 ORv $end
+$var wire 1 1 ORvbar $end
+$var wire 1 # Y $end
+$upscope $end
+$scope module comb3 $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 ' C $end
+$var wire 1 ( D $end
+$var reg 1 2 ANDv $end
+$var reg 1 3 Dbar $end
+$var reg 1 4 ORv $end
+$var reg 1 5 ORvbar $end
+$var reg 1 " Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+bx )
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#10
+0#
+0$
+1-
+0.
+11
+0!
+0*
+1+
+0,
+1/
+00
+0"
+15
+02
+04
+13
+b0 )
+0%
+0&
+0'
+0(
+#20
+0-
+01
+0+
+1,
+0/
+10
+05
+14
+03
+b1 )
+1(
+#30
+1-
+11
+1+
+0,
+1/
+00
+15
+04
+13
+b10 )
+1'
+0(
+#40
+0-
+01
+0+
+1,
+0/
+10
+05
+14
+03
+b11 )
+1(
+#50
+1-
+11
+1+
+0,
+1/
+00
+15
+04
+13
+b100 )
+1&
+0'
+0(
+#60
+0-
+01
+0+
+1,
+0/
+10
+05
+14
+03
+b101 )
+1(
+#70
+1#
+1$
+1-
+1.
+11
+1*
+1!
+1+
+0,
+1/
+00
+1"
+15
+12
+04
+13
+b110 )
+1'
+0(
+#80
+0$
+0#
+0*
+0-
+0.
+01
+0+
+1,
+0/
+10
+0"
+05
+02
+14
+03
+0!
+b111 )
+1(
+#90
+1+
+1/
+13
+b1000 )
+1%
+0&
+0'
+0(
+#100
+0+
+0/
+03
+b1001 )
+1(
+#110
+1+
+1/
+13
+b1010 )
+1'
+0(
+#120
+0+
+0/
+03
+b1011 )
+1(
+#130
+1+
+1/
+13
+b1100 )
+1&
+0'
+0(
+#140
+0+
+0/
+03
+b1101 )
+1(
+#150
+1.
+1*
+1+
+1/
+12
+13
+b1110 )
+1'
+0(
+#160
+0*
+0.
+0+
+0/
+02
+03
+b1111 )
+1(
+#170
+1-
+11
+1+
+0,
+1/
+00
+15
+04
+13
+b10000 )
+0%
+0&
+0'
+0(
+#180

@@ -1,0 +1,81 @@
+$date
+	Thu Nov 21 21:39:42 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_Encoder8x3 $end
+$var wire 3 ! p_code [2:0] $end
+$var reg 8 " p_data [7:0] $end
+$var integer 32 # k [31:0] $end
+$scope module enc $end
+$var wire 8 $ data [7:0] $end
+$var reg 3 % code [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+b0 $
+bx #
+b0 "
+bx !
+$end
+#100
+b0 !
+b0 %
+b0 #
+b1 "
+b1 $
+#200
+b1 !
+b1 %
+b1 #
+b10 "
+b10 $
+#300
+b10 !
+b10 %
+b10 #
+b100 "
+b100 $
+#400
+b11 !
+b11 %
+b11 #
+b1000 "
+b1000 $
+#500
+b100 !
+b100 %
+b100 #
+b10000 "
+b10000 $
+#600
+b101 !
+b101 %
+b101 #
+b100000 "
+b100000 $
+#700
+b110 !
+b110 %
+b110 #
+b1000000 "
+b1000000 $
+#800
+b111 !
+b111 %
+b111 #
+b10000000 "
+b10000000 $
+#900
+bx !
+bx %
+b1000 #
+b0 "
+b0 $

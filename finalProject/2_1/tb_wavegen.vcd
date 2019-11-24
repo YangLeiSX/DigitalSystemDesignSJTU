@@ -1,0 +1,67 @@
+$date
+	Sat Nov 23 23:30:05 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_wavegen $end
+$var wire 1 ! p_sig $end
+$scope module u $end
+$var reg 1 ! sig $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+$end
+#20
+1!
+#30
+0!
+#120
+1!
+#220
+0!
+#240
+1!
+#270
+0!
+#320
+0!
+#340
+1!
+#350
+0!
+#440
+1!
+#540
+0!
+#560
+1!
+#590
+0!
+#640
+0!
+#660
+1!
+#670
+0!
+#760
+1!
+#860
+0!
+#880
+1!
+#910
+0!
+#960
+0!
+#980
+1!
+#990
+0!
+#1000

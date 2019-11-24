@@ -1,0 +1,34 @@
+$date
+	Thu Nov 21 21:49:33 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_mux2x1 $end
+$var wire 1 ! p_dout $end
+$var reg 2 " p_din [1:0] $end
+$var reg 1 # p_sel $end
+$scope module mux $end
+$var wire 2 $ din [1:0] $end
+$var wire 1 ! dout $end
+$var wire 1 # sel $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 $
+1#
+b1 "
+0!
+$end
+#100
+1!
+0#
+#200
+0!
+1#
+#300

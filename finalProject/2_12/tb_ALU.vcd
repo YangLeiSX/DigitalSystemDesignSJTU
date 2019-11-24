@@ -1,0 +1,128 @@
+$date
+	Sat Nov 23 11:00:29 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_ALU $end
+$var wire 8 ! p_sum [7:0] $end
+$var wire 1 " p_c_out $end
+$var reg 8 # p_a [7:0] $end
+$var reg 8 $ p_b [7:0] $end
+$var reg 1 % p_c_in $end
+$var reg 3 & p_oper [2:0] $end
+$var integer 32 ' k [31:0] $end
+$scope module alu $end
+$var wire 8 ( a [7:0] $end
+$var wire 8 ) b [7:0] $end
+$var wire 1 % c_in $end
+$var wire 3 * oper [2:0] $end
+$var reg 1 " c_out $end
+$var reg 8 + sum [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+b0 '
+bx &
+x%
+bx $
+bx #
+x"
+bx !
+$end
+#100
+1"
+b101100 !
+b101100 +
+b1 '
+b10011010 #
+b10011010 (
+b10010010 $
+b10010010 )
+0%
+b0 &
+b0 *
+#200
+0"
+b1101111 !
+b1101111 +
+b10 '
+b10101111 #
+b10101111 (
+b1000000 $
+b1000000 )
+1%
+b1 &
+b1 *
+#300
+1"
+b10010110 !
+b10010110 +
+b11 '
+b1101011 #
+b1101011 (
+b100 $
+b100 )
+b10 &
+b10 *
+#400
+0"
+b111011 !
+b111011 +
+b100 '
+b101011 #
+b101011 (
+b110001 $
+b110001 )
+b11 &
+b11 *
+#500
+b10000100 !
+b10000100 +
+b101 '
+b10111101 #
+b10111101 (
+b10000110 $
+b10000110 )
+b100 &
+b100 *
+#600
+b10 !
+b10 +
+b110 '
+b11001100 #
+b11001100 (
+b11000110 $
+b11000110 )
+b101 &
+b101 *
+#700
+b1110000 !
+b1110000 +
+b111 '
+b1000010 #
+b1000010 (
+b110010 $
+b110010 )
+b110 &
+b110 *
+#800
+b1011111 !
+b1011111 +
+b1000 '
+b10101001 #
+b10101001 (
+b1001 $
+b1001 )
+0%
+b111 &
+b111 *

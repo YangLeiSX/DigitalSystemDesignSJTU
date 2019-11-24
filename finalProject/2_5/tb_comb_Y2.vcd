@@ -1,0 +1,109 @@
+$date
+	Thu Nov 21 22:53:03 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_comb_Y2 $end
+$var wire 1 ! p_Y $end
+$var reg 1 " p_A $end
+$var reg 1 # p_B $end
+$var reg 1 $ p_C $end
+$var reg 1 % p_D $end
+$var integer 32 & k [31:0] $end
+$scope module comb $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var wire 1 ! Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+x%
+x$
+x#
+x"
+x!
+$end
+#100
+0!
+b0 &
+0"
+0#
+0$
+0%
+#200
+b1 &
+1%
+#300
+b10 &
+1$
+0%
+#400
+b11 &
+1%
+#500
+1!
+b100 &
+1#
+0$
+0%
+#600
+b101 &
+1%
+#700
+b110 &
+1$
+0%
+#800
+b111 &
+1%
+#900
+0!
+b1000 &
+1"
+0#
+0$
+0%
+#1000
+b1001 &
+1%
+#1100
+b1010 &
+1$
+0%
+#1200
+1!
+b1011 &
+1%
+#1300
+1!
+b1100 &
+1#
+0$
+0%
+#1400
+b1101 &
+1%
+#1500
+0!
+b1110 &
+1$
+0%
+#1600
+b1111 &
+1%
+#1700
+b10000 &
+0"
+0#
+0$
+0%
+#1800

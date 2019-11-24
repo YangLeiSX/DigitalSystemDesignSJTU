@@ -1,0 +1,110 @@
+$date
+	Thu Nov 21 23:36:10 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_comb_str $end
+$var wire 1 ! p_y $end
+$var reg 1 " p_A $end
+$var reg 1 # p_B $end
+$var reg 1 $ p_C $end
+$var reg 1 % p_D $end
+$var reg 1 & p_sel $end
+$scope module comb $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var wire 1 & sel $end
+$var wire 1 ' u1v $end
+$var wire 1 ( u2v $end
+$var wire 1 ! y $end
+$scope module mux $end
+$var wire 2 ) din [1:0] $end
+$var wire 1 ! dout $end
+$var wire 1 & sel $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )
+x(
+x'
+0&
+x%
+x$
+x#
+x"
+x!
+$end
+#100
+x!
+1&
+0"
+1#
+0$
+0%
+#130
+bx1 )
+1'
+#140
+1!
+b11 )
+1(
+#200
+1"
+0#
+1%
+#300
+1#
+#330
+b10 )
+0'
+#400
+0!
+0&
+0"
+#430
+1!
+b11 )
+1'
+#500
+1!
+1&
+0#
+#600
+1#
+1$
+0%
+#700
+0&
+1"
+0$
+1%
+#730
+0!
+b10 )
+0'
+#800
+0#
+#830
+1!
+b11 )
+1'
+#900
+0"
+1#
+#1000
+1!
+1&
+#1100
+0#
+1$
+0%
+#1200
